@@ -9,22 +9,28 @@ then  create the project using .
 > default (babel, eslint)
 
 Once the project is created, move into the directory and serve the project using:-. 
-      > cd recipe
-     > npm run serve
+     
+     > cd recipe
+    
+    > npm run serve
 
 Adding Bootstrap styles and JavaScript using.-
-   > npm install bootstrap jquery popper.js
+  
+  > npm install bootstrap jquery popper.js
 
 Imported into recipe/src/main.js file 
-    import 'bootstrap'
-    import 'bootstrap/dist/css/bootstrap.min.css'
+   
+   import 'bootstrap'
+  
+  import 'bootstrap/dist/css/bootstrap.min.css'
 
 Create Recipecomponent.vue in component folder
 
 Cretate HomePage.vue inside the root of your src folder. 
 
 install Vue.js router to connect between pages using 
-      npm install --save vue-router”  
+     
+     npm install --save vue-router”  
 
 import router into main.js
 
